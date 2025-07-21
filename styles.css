@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    margin:20% auto; 
+
+}
+.container{
+    width:400px;
+    max-width: 90%;
+    border: 1px solid #fff;
+    background: transparent;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.one{
+    margin-top: 20px;
+}
+.container input{
+    width: 250px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+.container button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+.container img{
+    width: 30px;
+}
+#message{
+    margin-top: 10px;
+    color: #fff;
+    display: none;
+}
+#strong{
+    color:#127a4f;
+    color:#9b5d0b
+}
